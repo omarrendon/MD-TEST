@@ -19,3 +19,15 @@
   npx react-native run-ios
 - Para la versión de Android solo basta con ejecutar el siguiente comando para ejecutarlo
   npx react-native run-android
+
+
+  # SEGUNDO EJERCICIO
+  ## Para el segundo ejercico dejo el código con lo que resolvi el reto.
+
+```
+for (let index = 0; index < 10; index++) {
+    let tree = ' '.repeat(10 - index) + '0'.repeat(index * 2);
+    if (index == 0) tree = ' '.repeat(9) + '*';
+    console.log(tree);
+  }
+```
