@@ -56,7 +56,7 @@ export const useLocation = () => {
 
   const getPostalCodeByCoords = async (latitude, longitude) => {
     try {
-      const URL = `https://api.copomex.com/query/info_cp_geocoding_reverse?lat=${latitude}&lng=${longitude}&token=730cd0b3-5611-4a86-b8e7-ec23d807bfe4`;
+      const URL = `https://api.copomex.com/query/info_cp_geocoding_reverse?lat=${latitude}&lng=${longitude}&token=31b4215c-6a6e-42a9-bc17-a14b36006672`;
       const res = await fetch(URL);
       const {response} = await res.json();
       return response.cp;
